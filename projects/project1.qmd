@@ -1,34 +1,41 @@
 ---
-title: "Data Explorer - Iris Dataset"
+title: "Music Mood Classification (Shiny + OOP)"
 format: html
 ---
 
-# Data Explorer - Iris Dataset
+# Music Mood Classification
 
-An interactive web application built with Shiny for exploring and visualizing the Iris dataset. This app allows you to filter data by species and view correlations between sepal and petal measurements.
+This project is an object-oriented Shiny for Python app that presents the workflow from my `classification.ipynb` notebook, where I trained models to classify short music clips into mood categories.
 
-## Preview
+## Project Context
 
-The Data Explorer app provides an interactive interface for analyzing the Iris dataset:
+The original notebook experiments use the Kaggle "Music Mood Classification" dataset and compare:
 
-![Iris Data Visualization](../assets/shiny_preview.png)
+- Random Forest on handcrafted features (MFCC + Chroma + Spectral Contrast + ZCR)
+- XGBoost on the same handcrafted features
+- A neural network on mel spectrograms
 
-This visualization shows the relationship between sepal length and petal length, colored by species. The app allows you to filter by species and view detailed measurements for each data point.
+Mood classes:
+- aggressive
+- dramatic
+- happy
+- romantic
+- sad
 
 ## Interactive Demo
 
-Interact with the live Shiny application below:
+The app exposes this work in an interactive dashboard with:
+
+- model metric comparison
+- mood-level feature profile visualization
+- confusion matrix view
+- searchable model results table
+
+After deploying the `projects/data` app on Posit Cloud, embed your URL below:
 
 ```{=html}
-<iframe src="https://019c0abb-84a7-0b13-4068-0e4f305e4b63.share.connect.posit.cloud" width="100%" height="800" style="border: 1px solid #ddd; border-radius: 4px;"></iframe>
+<iframe src="https://019d4e61-c9f9-8083-68f1-81ab44d74b2a.share.connect.posit.cloud/" width="100%" height="800" style="border: 1px solid #ddd; border-radius: 4px;"></iframe>
 ```
-
-## Features
-
-- **Species Filter**: Select individual iris species or view all data
-- **Interactive Visualization**: Hover over data points to see detailed measurements
-- **Data Table**: View the filtered dataset in a formatted table
-- **Dynamic Updates**: All visualizations update in real-time based on your selection
 
 ## Running the App Locally
 
@@ -43,14 +50,21 @@ cd projects/data
 shiny run app.py
 ```
 
-Then visit `http://127.0.0.1:8000` in your browser.
+Then open `http://127.0.0.1:8000` in your browser.
 
-## Project Details
+## OOP Design Highlights
 
-**Technology Stack:**
+The implementation is intentionally class-based for your OOP course rubric:
+
+- `ExperimentConfig` and `ModelResult` as domain data classes
+- `CsvRepository` for data access
+- `ExperimentService` for application/business logic
+- abstract `PlotBuilder` plus concrete plotting strategies
+- `PortfolioUIFactory` and `PortfolioServerController` for separation of UI/server responsibilities
+
+## Technology Stack
+
 - Python 3.9
 - Shiny for Python
 - Pandas for data manipulation
 - Plotly for interactive visualizations
-
-**Repository:** add links to notebooks and artifacts.

@@ -1,0 +1,6 @@
+mood,mfcc_energy,chroma_warmth,spectral_contrast,zero_crossing_rate,samples
+aggressive,0.83,0.41,0.79,0.76,100
+dramatic,0.67,0.52,0.71,0.58,100
+happy,0.74,0.81,0.63,0.69,100
+romantic,0.52,0.78,0.49,0.42,100
+sad,0.46,0.59,0.44,0.39,100

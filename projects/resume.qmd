@@ -7,30 +7,30 @@ format: html
 
 **Data Scientist • Machine Learning • Visualization**
 
-- Email: your.email@example.com
-- LinkedIn: https://www.linkedin.com/in/your-profile
-- GitHub: https://github.com/your-username
+- Email: bence.por03@gmail.com
+- LinkedIn: https://www.linkedin.com/in/bence-por
+- GitHub: https://github.com/bencepor
 
 ## Summary
 
-Short 2–3 sentence summary about your focus, strengths, and the roles you're seeking.
+I like machine learning and working with audio data, music analysis
 
 ## Skills
 
 - Python, pandas, scikit-learn, PyTorch
 - Data visualization: plotly, matplotlib, seaborn
-- SQL, Docker, cloud basics
+- SQL
 
 ## Experience / Projects
 
-- Project A — short bullet point summary
-- Project B — short bullet point summary
+- Internship at LiveVoice (Vienna based startup)
+- Other school projects on my github, mostly related to math and audio
 
 ## Contact / Hire Me
 
-If you'd like to reach me directly, send an email or use the form below (Formspree example):
+If you'd like to reach me directly, send an email or use the form below:
 
-<form action="https://formspree.io/f/your-form-id" method="POST">
+<form action="https://formspree.io/f/mqegdbgp" method="POST">
   <label for="name">Name</label><br>
   <input type="text" id="name" name="name" required><br>
   <label for="email">Email</label><br>
@@ -40,5 +40,3 @@ If you'd like to reach me directly, send an email or use the form below (Formspr
   <button type="submit">Send</button>
 </form>
 
-Notes:
-- Replace `https://formspree.io/f/your-form-id` with your Formspree form endpoint or another form backend.

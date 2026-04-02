@@ -1,0 +1,4 @@
+model,feature_set,accuracy,precision_macro,recall_macro,f1_macro,samples_per_class,notes
+Random Forest,MFCC + Chroma + Spectral Contrast + ZCR,0.80,0.80,0.80,0.80,100,Trained on tabular handcrafted audio features
+XGBoost,MFCC + Chroma + Spectral Contrast + ZCR,0.80,0.80,0.80,0.80,100,Gradient boosted trees on same feature vector
+Dense Neural Network,Mel Spectrogram,0.62,0.61,0.62,0.61,100,Simple dense network on mel spectrogram representation

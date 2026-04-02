@@ -5,9 +5,4 @@ format: html
 
 # About Me
 
-Short bio, skills, contact info, and a link to your resume.
-
-- **Skills:** Python, pandas, scikit-learn, SQL, data visualization
-- **Contact:** your.email@example.com
-
-Upload a `resume.pdf` to the repo root and link it here when ready.
+Find my resume by clicking [Here](bence_por_cv.pdf).

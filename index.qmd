@@ -5,16 +5,16 @@ format: html
 
 # Hi — I'm a Data Science Student
 
-Welcome to my portfolio. Below are featured projects and an interactive data demo.
+Welcome to my portfolio. Below are featured projects and an interactive data science app.
 
 ## Featured Project
 
-- Project: Predictive modeling of housing prices — see details in the Projects section.
+- Project: Music mood classification from short audio samples using machine learning models.
 
 ## Interactive Demo
 
-Run the sample Shiny app locally and open:
+Run my Shiny app locally and open:
 
 - http://127.0.0.1:8000 (Shiny app)
 
-You can embed the running app using an iframe in a hosted environment.
+The deployed Posit Cloud app is embedded on the project page.

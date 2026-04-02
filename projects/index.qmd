@@ -7,12 +7,12 @@ format: html
 
 A selection of data science projects showcasing different techniques and technologies.
 
-## Data Explorer - Iris Dataset
+## Music Mood Classification (Shiny + OOP)
 
-An interactive web application built with Shiny for exploring and visualizing the Iris dataset.
+An object-oriented Shiny for Python app that presents results from my music mood classification notebook.
 
 [![Iris Data Visualization](../assets/shiny_preview.png)](project1.qmd)
 
-This project demonstrates object-oriented Python design patterns applied to a real-world data visualization application. It uses Shiny for interactivity and Plotly for dynamic visualizations.
+The project demonstrates OOP design with domain models, repository/service layers, and chart strategy classes. It uses Shiny for interactivity and Plotly for dynamic visualizations.
 
 [View Project Details →](project1.qmd)
